@@ -7,5 +7,5 @@ How to run:
 2. execute command ```python app.py``` for server
 3. execute this command in new command prompt for predict category
 ```
-curl -X POST -d "{\"text\": \"this is a news news news\"}" http://localhost:5000/predict -H "Content-Type:application/jso
+curl -X POST -d "{\"text\": \"this is a news news news\"}" http://localhost:5000/predict -H "Content-Type:application/json
 ```
